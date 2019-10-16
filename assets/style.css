@@ -135,3 +135,32 @@ xxxfooter {
     float: 0 auto;
 
   }
+
+@media only screen and (max-width: 980px) {
+    body {
+        width: 760px;
+        border: 2px solid #dddddd;
+        background-color: yellowgreen;
+        position: relative;
+    }}
+
+@media only screen and (max-width: 768px) {
+    /* For tabletss: */      
+    body {
+        width: 630px;
+        border: 2px solid #dddddd;
+        background-color: palevioletred;
+        position: relative;
+    }}
+
+@media only screen and (max-width: 640px) {
+    /* For phones: */
+    header {
+        position: static;
+    }
+    body {
+        width: 100%;
+        border: 2px solid #dddddd;
+        background-color: #ffffff;
+        position: relative;
+    }}
