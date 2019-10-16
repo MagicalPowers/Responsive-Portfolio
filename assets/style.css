@@ -1,0 +1,137 @@
+
+
+
+html {
+    float: left;
+    margin: auto;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/criss-cross.png);
+}
+body {
+    width: 960px;
+    border: 2px solid #dddddd;
+    background-color: #ffffff;
+    position: relative;
+}
+header {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid #cccccc;
+    overflow: auto;
+    background-color: #ffffff;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 0;
+    background-color: #dddddd;
+    display: inline;
+}
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+    display: inline;
+    margin: 0;
+    border-right: 1px solid #bbb;
+}
+
+  
+li:last-child {
+    border-bottom: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    xxxheight: 50px;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: text-bottom;
+    padding-top: 25px;
+    padding-bottom: 7px;
+
+ }
+
+xxxfooter {
+    margin: 0 auto;
+    float: left;
+   
+}
+
+#spacer {
+    position: relative;
+    height: 5px;
+    width: 97%;
+    background-color: #aaaaaa;
+}
+
+#avatar {
+    float: left;
+    margin-left: 10px;
+}
+
+#centerbox {
+    position: relative;
+    width: 97%;
+    border: 1px solid #555;
+    padding: 20px;
+    border: 5px;
+
+}
+
+#messagebox {
+    height:225px;
+    width: 97%;
+    font-size:16pt;
+}
+
+.nametag {
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 25px;
+    display: block;
+}
+
+#nnametag {
+    background-color: #ffffff;
+    width: 40%;
+    height: 60px;
+    margin: 0px;
+    float: left;
+}
+
+#listitem {
+    position: relative;
+    width: 97%;
+}
+
+.container {
+    display: grid;
+    grid-gap: 50px 50px;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .griditem {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    float: 0 auto;
+
+  }
